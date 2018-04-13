@@ -1,19 +1,24 @@
 #include <stdint.h>                                                             // inclusão da biblioteca para declaração do uint
 #include <stdlib.h>                                                             // inclusão da biblioteca para utilização do malloc
 
-//uint16_t tam_x = 5;
-//uint16_t tam_y = 5;
-
 //############################_DEFINIÇÕES_ENTRADA_##############################
 // serão alteradas futuramente
 
 #define tam_x_in 5                                                              // define o tamanho para o eixo x da imagem de entrada
-#define tam_y_in 5                                                              // define o tamanho para o eixo y da imagem de entrada
-uint8_t img_entrada[tam_x_in*tam_y_in] = {2,3,4,5,6,                            // cria o vetor da imagem de entrada
-                                          8,9,10,11,12,
-                                          14,15,16,17,18,
-                                          19,20,21,22,23,
-                                          7,8,9,10,11};
+#define tam_y_in 6                                                              // define o tamanho para o eixo y da imagem de entrada
+
+uint8_t img_entrada[tam_x_in*tam_y_in] = {1,2,3,4,5,
+                                          6,7,8,9,10,
+                                          11,12,13,14,
+                                          15,16,17,18,19,
+                                          20,21,22,23,24,25,
+                                          26,27,28,29,30};
+  
+//uint8_t img_entrada[tam_x_in*tam_y_in] = {2,3,4,5,6,                            // cria o vetor da imagem de entrada
+//                                          8,9,10,11,12,
+//                                          14,15,16,17,18,
+//                                          19,20,21,22,23,
+//                                          7,8,9,10,11};
 
 //###########################_DEFINIÇÕES_SAIDA_#################################
 
